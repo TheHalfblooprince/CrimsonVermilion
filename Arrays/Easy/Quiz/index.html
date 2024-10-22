@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quiz</title>
+    <style>
+      /* Basic reset for margin and padding */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Container to hold the quiz */
+      .quiz-wrapper {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 600px;
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      /* Styling the questions */
+      .question-container {
+        background-color: #e0e0e0;
+        border: 2px solid #007bff;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #333;
+      }
+
+      /* Styling the button */
+      .btn-next {
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      .btn-next:hover {
+        background-color: #0056b3; /* Darker shade of blue */
+      }
+
+      .btn-next:active {
+        background-color: #004080; /* Even darker shade on click */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quiz-wrapper">
+      <h1>Random Quiz</h1>
+      <div id="quiz-container">
+        <div class="question-container" id="question1">
+          Question 1 will appear here...
+        </div>
+        <div class="question-container" id="question2">
+          Question 2 will appear here...
+        </div>
+      </div>
+      <button class="btn-next" onclick="showNextQuestions()">
+        Next Questions
+      </button>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

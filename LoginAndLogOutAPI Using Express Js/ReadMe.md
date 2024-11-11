@@ -18,6 +18,5 @@ For setup and installation instructions, see the detailed guide provided at [Hac
 ## Usage
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/LoginAndLogoutAPI.git
-   cd LoginAndLogoutAPI
+   https://github.com/mjosh51/authentication-authorization-expressjs-tutorial-starterfiles?ref=hackernoon.com
 2. ** Follow the link given above for complete guide **

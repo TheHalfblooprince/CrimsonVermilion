@@ -1,6 +1,0 @@
-A few things to remember when naming functions:
-1) Name functions after a verb which clearly conveys what they do
-2) Omit articles (a, an)
-3) Make sure the name matches the number of items involved (createTodo vs createTodos)
-4) Verb at the beginning, noun at the end (checkCompleteTodo)
-5) If you have similar actions throughout the application, use the same verb to describe them
